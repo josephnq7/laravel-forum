@@ -1,0 +1,46 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    background-image: linear-gradient(to right, #a25b5b, #692e4c);
+    padding: 1.5em 2em;
+}
+
+header h1{
+    margin-top: 0;
+    font-size: 1.6em;
+}
+
+div.header-top{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: white;
+    padding-bottom: 50px;
+}
+
+div.header-top a{
+    color: inherit;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav > a{
+    padding-left: 20px;
+    padding-right: 20px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.5);
+}
